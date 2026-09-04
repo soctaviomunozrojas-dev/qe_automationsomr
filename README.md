@@ -97,3 +97,16 @@ La suite ejecuta correctamente todos los escenarios automatizados:
 QA Engineer
 
 Proyecto desarrollado utilizando Playwright, Cucumber y TypeScript.
+
+Repositorio:
+https://github.com/soctaviomunozrojas-dev/qe_automationsomr
+
+Tecnologías:
+- Playwright
+- Cucumber
+- TypeScript
+- Page Object Model
+
+Resultado:
+3 scenarios (3 passed)
+15 steps (15 passed)
