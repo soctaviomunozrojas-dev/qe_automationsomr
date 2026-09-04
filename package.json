@@ -1,0 +1,27 @@
+{
+  "name": "playwright-saucedemo-automation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "cucumber-js",
+    "test:login": "cucumber-js --tags @login",
+    "test:cart": "cucumber-js --tags @cart",
+    "test:checkout": "cucumber-js --tags @checkout"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "chai": "^6.2.2"
+  },
+  "devDependencies": {
+    "@cucumber/cucumber": "^13.2.1",
+    "@playwright/test": "^1.62.1",
+    "@types/chai": "^5.2.3",
+    "playwright": "^1.62.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  }
+}
